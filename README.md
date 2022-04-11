@@ -20,9 +20,8 @@ Due to my design being image heavy, I decided to use [Optimizilla](http://optimi
 
 ## The Design :pencil2:
 
-My favourite example of engaging, clean web design at the moment is https://stripe.com, so naturally when given the task of revamping my own website, I took a lot of inspiration from [Benjamin de Cock's](https://dribbble.com/bdc) designs.
+My favourite example of engaging, clean web design at the moment, so naturally when given the task of revamping my own website, I took a lot of inspiration from [Benjamin de Cock's](https://dribbble.com/bdc) designs.
 
-<a href="http://imgur.com/IwWO9b1"><img width="650" height="400" src="http://i.imgur.com/IwWO9b1.png" alt="stripe header" /></a>
 
 Two of my biggest shifts in design were using an animated colour gradient for backgrounds and condensing my introduction blurb translations into one flippable card. I used [David Walsh's CSS Flip](https://davidwalsh.name/css-flip) guide and [Ian Forrest's Gradient Animator](https://www.gradient-animator.com/) to bring these ideas to fruition.
 
@@ -31,8 +30,8 @@ Two of my biggest shifts in design were using an animated colour gradient for ba
 
 ## The Projects :art:
 
-The bulk of my projects section is made up of web application I made at Le Wagon Tokyo.
+The bulk of my projects section is made up of web application.
 
-<h3>Thanks for reading and enjoy the portfolio! :shipit:</h3>
+<h3>Thanks for reading and enjoy :shipit:</h3>
 
 # Web_Present_Project_ROR
