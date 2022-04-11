@@ -1,0 +1,2 @@
+class ContactItem < ApplicationRecord
+end

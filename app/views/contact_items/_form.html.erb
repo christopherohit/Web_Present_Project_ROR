@@ -1,0 +1,32 @@
+<%= flash[:notice] %>
+
+<%= form_for(contact_item) do |f| %>
+  <% if contact_item.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(contact_item.errors.count, "error") %> prohibited this contact_item from being saved:</h2>
+      <ul>
+      <% contact_item.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :email %>
+    <%= f.text_field :email, class: 'form-control' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :comments %>
+    <%= f.text_area :comments, class: 'form-control' %>
+  </div>
+
+
+  <%= f.submit 'Submit', class: 'btn btn-default' %>
+<% end %>

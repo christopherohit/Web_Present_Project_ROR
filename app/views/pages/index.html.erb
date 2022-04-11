@@ -1,0 +1,328 @@
+<div class="container">
+  <!-- begin nav -->
+  <header>
+    <div class="inner">
+      <nav id="nav" class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="page-scroll">
+                <a href="#about">ABOUT</a>
+              </li>
+              <li class="page-scroll">
+                <a href="#portfolio">PROJECTS</a>
+              </li>
+              <li class="page-scroll">
+                <a href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end nav -->
+
+      <!-- Logo and Title -->
+      <section id="top" class="page-title">
+        <img src="<%= asset_path 'wf-logo-small-white.png' %>" class="img-responsive floating" , id="startchange" alt="AR logo">
+        <h2>Hallo, willkommen, alle kommen hierher</h2>
+        <h1 style="font-family: Arial">Hendrichs's Research</h1>
+        <h4>AI Center For Medical Image</h4>
+      </section>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="content">
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="title">PROJECTS 👨🏻‍💻</h2>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- Destination Matcher app -->
+          <div class="col-sm-4 portfolio-item">
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Diagnosis, Detection, and Segmentation Extraction of Lung Lesions</p><br>
+                  <a href="https://github.com/christopherohit/Lung-Assistant-Analysis" class="portfolio-link">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <img style="height: 230px; width: 400px;" src="<%= asset_path 'sagar-pneumonia-0.jpeg' %>" class="img-responsive" alt="Destination Matcher">
+            </div>
+          </div>
+
+          <!-- WeJam app -->
+          <div class="col-sm-4 portfolio-item">
+
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Do you have problems with skin, You want check skin cancer. Please visit it</p>
+                  <br>
+                  <a href="#" class="portfolio-link">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <%#= link_to image_tag('single-page-portfolio-min.png'), class: 'img-responsive', alt: 'Single Page Portfolio' %>
+              <img style="height: 230px;" src="<%= asset_path 'skinvision-app.jpg' %>" class="img-responsive" alt="WeJam">
+            </div>
+          </div>
+
+          <!-- Cocktail Aspirante app-->
+          <div class="col-sm-4 portfolio-item">
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Liver cancer is a commond problem which still have a solution</p>
+                  <br>
+                  <a href="cocktail-aspirante.herokuapp.com" class="portfolio-link">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <img style="height: 230px;" src="<%= asset_path 'Liver_cancer.jpg' %>" class="img-responsive" alt="Cocktail Aspirante">
+            </div>
+          </div>
+
+          <div class="col-sm-4 portfolio-item">
+            <div class = "item-wrap">
+              <div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 portfolio-item">
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Mox Moda: B2B marked place for fashion designers seeking buyers</p>
+                </div>
+              </div>
+              <img src="<%= asset_path 'mox-moda.jpg' %>" class="img-responsive" alt="Mox Moda">
+            </div>
+          </div>
+
+        </div>
+
+</section>
+
+<section id="about" class="intro">
+  <div class="intro-inner">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title">About 👨🏻‍💼</h2>
+
+      </div>
+      <div class="row intro-cards">
+        <div class="col-xs-12 col-sm-6">
+          <img src="<%= asset_path 'seft_image.jpg' %>" class="img-responsive portrait" alt="Me">
+        </div>
+
+        <div class="col-xs-12 col-sm-6">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                  <p>Hi there! <br>
+                    My name is Hendrichs, and I'm a AI Engineer and Data Science. I previously studied for 1 years 
+                    in the University Communicate Transportation,
+                     and through this IT career, I discovered programming.
+                    <br>
+                    <br>Colleagues who were building amazing apps gave me this curiosity for coding, 
+                    that soon enough, became a passion.<br><br>So in June 2021, 
+                    I decided to take a coding bootcamp at <a href="https://www.lewagon.com/tokyo">Le Wagon</a> 
+                    in Germany, study anything and everything about Software development, AI Engineer 
+                    and begin a career in Programming.<br>
+                    Along with my background in MBA, BA, Arts and few introduction courses on AI and Big Data, 
+                    I use all my adquired skills to enjoy developing creative and effective 
+                    open-source web projects on spare-time.<br>Please check them out!:)
+                </p>
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+  <section id="portfolio" class="projects">
+      <div class="projects-container my-container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+        <h2 class="title">Achievements 🏆</h2>
+        <h4 style="color:black">Hover for details.</h4>
+        <br>
+      </div>
+      <div class="container my-container">
+        <div class="projects-row">
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                Predict Pneumonia On X-ray
+              </div>
+              <div class="box3d text-before">
+                
+                Research Science
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                   Take part in courses
+                </div>
+                <div class="box3d text-before">
+                   Certificate AI of IBM. 
+                </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                Establish Club in University
+              </div>
+              <div class="box3d text-before">
+                Leader Of AI@Lab Of UTC2
+              </div>
+            </div>
+          </div>
+
+          <%# <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                Healthcare smartphone app, Multilingual Digital Magazines
+              </div>
+              <div class="box3d text-before">
+                Managed various media projects from scratch
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                Used English, Japanese, and Portuguese professionally
+              </div>
+              <div class="box3d text-before">
+                Worked with multicultural teams
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                  Lived in Switzerland, Brazil, Colombia, Germany, Belgium, Japan
+                </div>
+                <div class="box3d text-before">
+                  Broad international background
+                </div>
+            </div>
+          </div> %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="intro">
+  <div class="intro-inner">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title">Hobbies ⛹️‍</h2>
+      </div>
+      <div class="container my-container" text-center>
+        <div class="row intro-cards">
+          <br>
+          <div class="col-xs-12 col-sm-5 text-center">
+            <div class="photo-hobby">
+              <h3>Photography</h3>
+              <a href="#"><img src="<%= asset_path 'photo2.png' %>" class="hobby-image" alt="RicardoPiras.com"></a>
+              <h4>My photos appeared in 17 exhibits so far.
+                <br>Inspirations: Helmut Newton and Sebastião Salgado.</h4>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 text-center">
+            <div class="photo-hobby">
+              <h3>Capoeira</h3>
+              <img src="<%= asset_path 'capoeira.png' %>" class="hobby-image" alt="Capoeira">
+              <h4>2 years practicioner!<br>Capoeira combines gymnastics with dance, martial arts and culture.</h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 text-center">
+            <div class="photo-hobby">
+              <h3>Swimming</h3>
+              <img src="<%= asset_path 'swimming.png' %>" class="swimmer-image" alt="Swimming">
+              <h4>No better sport to stay fit and healthy plus it helps me stay energetic 💪</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</main>
+<!-- end main -->
+
+<!-- contact and footer -->
+<footer>
+  <section id="contact" class="social">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title">Contact 📬</h2>
+
+        <ul class="social-buttons">
+          <li>
+            <a href="mailto:xuanquyen02023002@gmail.com">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/christopherohit">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100008299635095">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div class="copyright">&copy; 2021</div>
+</footer>
+</div>
+
+<!-- Scroll to top button -->
+<div class="scroll-top page-scroll hidden-lg">
+  <a href="#top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
